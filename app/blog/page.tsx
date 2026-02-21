@@ -157,7 +157,7 @@ export default async function BlogPage({
         {posts.length > 0 ? (
           posts.map((post) => (
             <div key={post._id} className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center group">
-              <div className="relative aspect-[4/3] overflow-hidden bg-gray-100">
+              <div className="relative aspect-4/3 overflow-hidden bg-gray-100">
                 {post.mainImage && (
                   <Image 
                     src={urlFor(post.mainImage).url()} 
