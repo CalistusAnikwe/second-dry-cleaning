@@ -19,7 +19,6 @@
     "next-sanity": "^11.6.12",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "resend": "^6.9.2",
     "sanity": "^4.22.0",
     "schema-dts": "^1.1.5",
     "server-only": "^0.0.1",
